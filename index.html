@@ -8,12 +8,42 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <button id="app-name-button">Get App Name</button>
-        <p id="app-name"></p>
-        <button id="geolocation-button">Get Geolocation</button>
-        <p id="geolocation"></p>
-        <button id="clipboard-button">Get Clipboard</button>
-        <p id="clipboard"></p>
+        <div>
+            <button id="app-name-button">Get App Name</button>
+            <p id="app-name"></p>
+        </div>
+
+        <div>
+            <button id="geolocation-button">Get Geolocation</button>
+            <p id="geolocation"></p>
+        </div>
+
+        <div>
+            <button id="clipboard-button">Get Clipboard</button>
+            <p id="clipboard"></p>
+        </div>
+
+        <div>
+            <input
+                id="animal-input"
+                type="text"
+                placeholder="Enter the name of an animal"
+            />
+            <p id="animal-result"></p>
+        </div>
+
+        <div>
+            <button id="kitty-button">Click to get another kitty!</button>
+            <img
+                id="kitty-image"
+                src=""
+                alt="cat image"
+                height="300"
+                width="300"
+            />
+            <p id="error-message"></p>
+        </div>
+
         <script src="app.js"></script>
     </body>
 </html>
